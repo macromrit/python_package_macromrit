@@ -10,7 +10,7 @@ Firstly..  I'm a student, currently pursuing higher education in Chennai, India.
 Yep.. now hopefully, it's the right time to smash the reasons, why I manufactured this package.
 
 Getting your grooves under the category of python might be simple as proclaimed... But
-When it's time to deal with ridiculous challenges like writing files[i.e csv, txt & bin] via python, that's gonna make you run frenzy
+When it's time to deal with ridiculous challenges like writing files[i.e csv, txt & bin] via python, that's gonna make you run frenzy.
 
 With all due respect, in order to terminate excessive stress and chores from a programmer's life, I conceived this package to make ends meet right and work well mostly, under various aspects and phases.
 
@@ -24,37 +24,52 @@ INSTRUCTIONS TO ABIDE:
     this package consists of 6 functions that you can import and implement
     
     i]write_txt(filename, fillers)
-        ->this function help's you to create a txt file and append the elements you wanna, to the file you've provided
-        ->have to enter the file name first
+        ->this function help's you to create a txt file and append the elements you wanna, to the file you've provided.
+        ->have to enter the file name first.
         ->then enter the string you wanna append in a single go.
     
     ii]read_txt(filename)
-        ->this function helps you read the txt file via the read function
+        ->this function helps you read the txt file via the read function.
     
     iii]write_csv(filename, total_columns, total_rows)
-        ->this function help's you to create a csv file and append the elements you wanna, to the file you've provided
-        ->have to enter the file name first
-        ->then enter the total number of columns you wanna have in your csv     	   file
--> enter 0 if you are gonna append to a csv file that already exists else print the no. of columns you wanna have to create a new csv file and write the columns in it
-        ->then enter the total number of rows you wanna write to your csv file
+        ->this function help's you to create a csv file and append the elements you wanna, to the file you've provided.
+        ->have to enter the file name first.
+        ->then enter the total number of columns you wanna have in your csv file.
+        -> enter 0 if you are gonna append to a csv file that already exists else print the no. of columns you wanna have to create a new csv file and write the columns in it.
+        ->then enter the total number of rows you wanna write to your csv file.
     
     iv]read_csv(filename)
-       ->this function helps you read the csv file list by list.. via reader function from csv
+       ->this function helps you read the csv file list by list.. via reader function from csv.
 
     v]write_bin(filename, *values)
-      ->this function helps you to create and append or direct append to a pickled binary file
+      ->this function helps you to create and append or direct append to a pickled binary file.
       ->should first provide the file name you wanna create or append elements to.
       ->then write elements one after another with commas separated.. elements might be of whatever datatype you wanna have.
 
     vi]read_bin(filename)
-       ->this function helps you to read a pickled binary file completely
-
-## THANKYOU PYTHON ORGANISATION FOR MAKING MY DREAM COME TRUE ##
+       ->this function helps you to read a pickled binary file completely.
 
 
-CREATOR & FOUNDER of amrit library
-C.Amrit Subramanian
-a.k.a
-Macromrit
+## THANKS PYTHON ORGANISATION FOR MAKING MY DREAM COME TRUE ##
+
+##########################################################################
+
+cling me via instagram: https://www.instagram.com/amritsubramanian.c/
+
+catch me through email: amritsubramanian.c@gmail.com
+
+grab me on github: https://github.com/macromrit
+
+or feel free to call: +91 9003724367
+
+###########################################################################
+
+
+thanks for supporting:
+
+    CREATOR & FOUNDER of amrit library
+    C.Amrit Subramanian
+    a.k.a
+    Macromrit
 
 
