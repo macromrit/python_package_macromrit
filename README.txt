@@ -1,7 +1,7 @@
 Hey There!!!
 
 I'm C.Amrit Subramanian
-the founder and manufacturer of this library
+the founder and author of this library
 
 Let me just elucidate you.. about why I was too keen on constructing this.
 
@@ -63,16 +63,12 @@ catch me through email: amritsubramanian.c@gmail.com
 
 grab me on github: https://github.com/macromrit
 
-or feel free to ring me: +91 9003724367
-
 ###########################################################################
 
 
 thanks for supporting :):):)
 
-CREATOR & FOUNDER of amrit library
-C.Amrit Subramanian
-a.k.a
-Macromrit
-
-
+author & FOUNDER of amrit library |
+C.Amrit Subramanian |
+a.k.a |
+Macromrit |

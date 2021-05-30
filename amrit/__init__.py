@@ -2,7 +2,7 @@ import csv
 import pickle
 
 #--------------------------------------------------------->
-def write_txt(filename: str="norm", 
+def write_txt(filename: str, 
                 fillers: str="Hello it me amrit.. How is it going")->str:
     """
 
@@ -32,7 +32,7 @@ ______________________________________
 
 
 
-def read_txt(filename: str="norm", mode: str="p"):
+def read_txt(filename: str, mode: str="p"):
     """
     
     this function should be used to read txt files
@@ -56,7 +56,7 @@ def read_txt(filename: str="norm", mode: str="p"):
     
 #---------------------------------------------------------->
 
-def write_csv(filename: str="norm", 
+def write_csv(filename: str, 
               total_columns: int=2, total_rows: int=2):
     
     """
@@ -162,7 +162,7 @@ def read_csv(filename: str, mode: str='p'):
         print('Invalid mode')            
 #---------------------------------------------------------->
 
-def write_bin(filename: str="amrit", *vals):
+def write_bin(filename: str, *vals):
     """
     
     this function should be used to write binary files via pickling
