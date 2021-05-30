@@ -28,8 +28,9 @@ INSTRUCTIONS TO ABIDE:
         ->have to enter the file name first.
         ->then enter the string you wanna append in a single go.
     
-    ii]read_txt(filename)
+    ii]read_txt(filename, mode)
         ->this function helps you read the txt file via the read function.
+        ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
     
     iii]write_csv(filename, total_columns, total_rows)
         ->this function help's you to create a csv file and append the elements you wanna, to the file you've provided.
@@ -38,16 +39,18 @@ INSTRUCTIONS TO ABIDE:
         -> enter 0 if you are gonna append to a csv file that already exists else print the no. of columns you wanna have to create a new csv file and write the columns in it.
         ->then enter the total number of rows you wanna write to your csv file.
     
-    iv]read_csv(filename)
+    iv]read_csv(filename, mode)
        ->this function helps you read the csv file list by list.. via reader function from csv.
+       ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
 
     v]write_bin(filename, *values)
       ->this function helps you to create and append or direct append to a pickled binary file.
       ->should first provide the file name you wanna create or append elements to.
       ->then write elements one after another with commas separated.. elements might be of whatever datatype you wanna have.
 
-    vi]read_bin(filename)
+    vi]read_bin(filename, mode)
        ->this function helps you to read a pickled binary file completely.
+       ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
 
 
 ## THANKS PYTHON ORGANISATION FOR MAKING MY DREAM COME TRUE ##
@@ -60,16 +63,16 @@ catch me through email: amritsubramanian.c@gmail.com
 
 grab me on github: https://github.com/macromrit
 
-or feel free to call: +91 9003724367
+or feel free to ring me: +91 9003724367
 
 ###########################################################################
 
 
-thanks for supporting:
+thanks for supporting :):):)
 
-    CREATOR & FOUNDER of amrit library
-    C.Amrit Subramanian
-    a.k.a
-    Macromrit
+CREATOR & FOUNDER of amrit library
+C.Amrit Subramanian
+a.k.a
+Macromrit
 
 
