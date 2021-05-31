@@ -4,8 +4,8 @@ with open('README.txt', 'r') as fh:
   long_description = fh.read()
 
 setuptools.setup(
-  name="amritsubramanian",
-  version="0.0.1",
+  name="macromrit",
+  version="1.0.0",
   author="C.Amrit Subramanian",
   author_email="amritsubramanian.c@gmail.com",
   description="A tiny but compact file writting library",
@@ -14,7 +14,7 @@ setuptools.setup(
   url="https://github.com/macromrit/python_package_amrit",
   packages=setuptools.find_packages(),
   classifiers=[
-    "Programming Language :: Python :: 3 ",
+    "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
   ],

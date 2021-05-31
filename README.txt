@@ -51,6 +51,67 @@ INSTRUCTIONS TO ABIDE:
     vi]read_bin(filename, mode)
        ->this function helps you to read a pickled binary file completely.
        ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+    
+    after downloading the library you should import it using this command: 'import macromrit' or 'from macromrit import <the function you want>'
+
+WHY IS THIS LIBRARY USEFUL & HANDY??:
+
+    _______________________________________________________________________
+
+    normal lines of code to write a txt file:
+
+        with open('filename.txt', 'a') as name:
+            print('hello world', file=name)
+    
+    when you use this library to write a text file:
+        
+        import macromrit
+        macromrit.write_txt('filename.txt', 'hello world')
+    _______________________________________________________________________
+
+    normal lines of code to write a csv file with 2 columns and 3 rows:
+
+        import csv
+        
+        vals = [
+        ['name', 'phone'], 
+        ['car', 'bike'], 
+        ['cycle', 'scooter']
+        ]
+        
+        with open('filename.csv', 'a', newline="") as writer:
+            main = csv.writer(writer, delimiter=',')
+            main.writerow(['column1', 'column2'])
+            main.writerows(vals)
+
+    when you use this library to write a csv file with 2 columns and 3 rows:
+        
+        import macromrit
+        macromrit.write_csv('filename.csv', 2, 3)
+    _______________________________________________________________________
+
+    normal lines of code to write a csv file with 5 elements:
+
+        import pickle
+        
+        x="hello"
+        y="hi"
+        z="bye"
+        a="clown"
+        c="pen"
+
+        with open('filename.bin', 'a') as writer:
+            pickle.dump(x, writer)
+            pickle.dump(y, writer)
+            pickle.dump(z, writer)
+            pickle.dump(a, writer)
+            pickle.dump(c, writer)
+
+    when you use this library to write a csv file with 2 columns and 3 rows:
+
+        import macromrit
+        macromrit.write_csv('filename.bin', "hello", "hi", 'bye', 'clown', 'pen')
+    _______________________________________________________________________
 
 
 ## THANKS PYTHON ORGANISATION FOR MAKING MY DREAM COME TRUE ##
