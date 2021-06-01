@@ -5,7 +5,7 @@ with open('README.txt', 'r') as fh:
 
 setuptools.setup(
   name="macromrit",
-  version="1.1.1",
+  version="1.0.1",
   author="C.Amrit Subramanian",
   author_email="amritsubramanian.c@gmail.com",
   description="A tiny but compact file writting library... if file writting create's dings, then oppose it with wings :)",
