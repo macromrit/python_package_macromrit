@@ -30,7 +30,7 @@ INSTRUCTIONS TO ABIDE:
     
     ii]read_txt(filename, mode)
         ->this function helps you read the txt file via the read function.
-        ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+        ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
     
     iii]write_csv(filename, total_columns, total_rows)
         ->this function help's you to create a csv file and append the elements you wanna, to the file you've provided.
@@ -41,7 +41,7 @@ INSTRUCTIONS TO ABIDE:
     
     iv]read_csv(filename, mode)
        ->this function helps you read the csv file list by list.. via reader function from csv.
-       ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+       ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
 
     v]write_bin(filename, *values)
       ->this function helps you to create and append or direct append to a pickled binary file.
@@ -50,7 +50,7 @@ INSTRUCTIONS TO ABIDE:
 
     vi]read_bin(filename, mode)
        ->this function helps you to read a pickled binary file completely.
-       ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+       ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
     
     after downloading the library you should import it using this command: 'import macromrit' or 'from macromrit import <the function you want>'
 
@@ -107,7 +107,7 @@ WHY IS THIS LIBRARY USEFUL & HANDY??:
             pickle.dump(a, writer)
             pickle.dump(c, writer)
 
-    when you use this library to write a binary files with 5 elements:
+    when you use this library to write a binary file with 5 elements:
 
         import macromrit
         macromrit.write_csv('filename.bin', "hello", "hi", 'bye', 'clown', 'pen')
@@ -129,7 +129,7 @@ grab me on github: https://github.com/macromrit
 
 thanks for supporting :):):)
 
-author & FOUNDER of amrit library |
+Author & Founder of macromrit library |
 C.Amrit Subramanian |
 a.k.a |
 Macromrit |

@@ -1,3 +1,4 @@
+LICENSE.txt
 README.txt
 setup.py
 macromrit/__init__.py
