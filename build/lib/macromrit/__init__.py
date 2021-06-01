@@ -5,12 +5,12 @@ import pickle
 def write_txt(filename: str, 
                 fillers: str="Hello it me amrit.. How is it going")->str:
     """
-    this function should be used to write txt files
-    notice%% add extension as  .txt to the file name as it's mandatory 
-    file type = txt
-    step1: enter the file name
-    step2: enter the string you wanna input in a single go
-    step3: enjoy.. thats all. 
+this function should be used to write txt files
+notice%% add extension as  .txt to the file name as it's mandatory 
+file type = txt
+step1: enter the file name
+step2: enter the string you wanna input in a single go
+step3: enjoy.. thats all. 
     
     """
     with open(filename, 'a') as creator:
@@ -21,7 +21,8 @@ file written or appended successfully
 details:
     file_name: {filename}
     content: {fillers}
-thanks for using amrit's library
+thanks for using this library
+    -C.Amrit Subramanian
 ______________________________________
         """)    
     return "file written successfully"    
@@ -31,12 +32,12 @@ ______________________________________
 def read_txt(filename: str, mode: str="p"):
     """
     
-    this function should be used to read txt files
-    notice%% add extension as  .txt to the file name as it's mandatory 
-    file type = str
-    just enter the filename
-    then enter the medium of range you wanna use the output i.e enter 'p' for printing the text or 'r' to make the text return
-    then rest would work like charm
+this function should be used to read txt files
+notice%% add extension as  .txt to the file name as it's mandatory 
+file type = str
+just enter the filename
+then enter the medium of range you wanna use the output i.e enter 'p' for printing the text or 'r' to make the text return
+then rest would work like charm
     
     """
 
@@ -57,13 +58,13 @@ def write_csv(filename: str,
     
     """
     
-    this function should be used to write csv files
-    notice%% never add extensions like .csv to the file name as it's pre-built inside the function
-    file type = csv[comma seperated values]
-    step1: enter the filename
-    step2: enter the no. of columns you wanna write.. if you wanna append rows to an existing file then enter 0.. the rest would be handled by the program
-    step3: enter the no. of rows you wanna write
-    step4: enjoy.. that's all.    
+this function should be used to write csv files
+notice%% never add extensions like .csv to the file name as it's pre-built inside the function
+file type = csv[comma seperated values]
+step1: enter the filename
+step2: enter the no. of columns you wanna write.. if you wanna append rows to an existing file then enter 0.. the rest would be handled by the program
+step3: enter the no. of rows you wanna write
+step4: enjoy.. that's all.    
     
     """
     if total_columns==0:
@@ -82,12 +83,13 @@ def write_csv(filename: str,
                 main.writerow(main_list)
                 count+=1
         print(F"""
-    ______________________________________
-    process successfull
-    total columns = {x}
-    total rows = {total_rows}
-    thanks for using amrit's library
-    ______________________________________
+______________________________________
+process successfull
+total columns = {x}
+total rows = {total_rows}
+thanks for using amrit's library
+    -C.Amrit Subramanian
+______________________________________
         """)
 
     
@@ -113,12 +115,13 @@ def write_csv(filename: str,
                 main.writerow(main_list)
                 count+=1
         print(F"""
-    ______________________________________
-    process successful
-    total columns = {total_columns}
-    total rows = {total_rows}
-    thanks for using amrit's library
-    ______________________________________
+______________________________________
+process successful
+total columns = {total_columns}
+total rows = {total_rows}
+thanks for using this library 
+    -C.Amrit Subramanian
+______________________________________
         """)
         return "process successful"
             
@@ -126,12 +129,12 @@ def write_csv(filename: str,
 def read_csv(filename: str, mode: str='p'):
     """
     
-    this function should be used to read csv files
-    notice%% add extension as  .csv to the file name as it's mandatory 
-    file type = csv[comma seperated values]
-    just enter the filename to read it.
-    then enter the medium of range you wanna use the output i.e enter 'p' for printing the csv file's content or 'r' to use the csv content for programming purposes which releases a list of all the elements
-    then rest would work like charm
+this function should be used to read csv files
+notice%% add extension as  .csv to the file name as it's mandatory 
+file type = csv[comma seperated values]
+just enter the filename to read it.
+then enter the medium of range you wanna use the output i.e enter 'p' for printing the csv file's content or 'r' to use the csv content for programming purposes which releases a list of all the elements
+then rest would work like charm
     
     """    
     
@@ -155,12 +158,12 @@ def read_csv(filename: str, mode: str='p'):
 def write_bin(filename: str, *vals):
     """
     
-    this function should be used to write binary files via pickling
-    notice%% add extensions like .bin or .pkl to the file name as it's mandatory 
-    file type = binary or bin
-    step1: enter the filename
-    step2: enter the values you wanna input one after another in the function
-    step3: enjoy... that's all
+this function should be used to write binary files via pickling
+notice%% add extensions like .bin or .pkl to the file name as it's mandatory 
+file type = binary or bin
+step1: enter the filename
+step2: enter the values you wanna input one after another in the function
+step3: enjoy... that's all
     
     """
     if vals==():
@@ -185,11 +188,11 @@ def read_bin(filename: str, mode: str='p'):
     """
     
 this function should be used to read a pickled binary file
-    notice%% add extensions like .bin or .pkl to the file name as it's mandatory 
-    file type = bin or binary
-    just enter the filename to read it.
-    then enter the medium of range you wanna use the output i.e enter 'p' for printing the bin file's content or 'r' to use the binary content for programming purposes which releases a list of all the elements
-    then rest would work like charm
+notice%% add extensions like .bin or .pkl to the file name as it's mandatory 
+file type = bin or binary
+just enter the filename to read it.
+then enter the medium of range you wanna use the output i.e enter 'p' for printing the bin file's content or 'r' to use the binary content for programming purposes which releases a list of all the elements
+then rest would work like charm
     
     """
 

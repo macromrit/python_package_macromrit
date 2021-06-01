@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: macromrit
-Version: 1.1.1
-Summary: A tiny but compact file writting library
+Version: 1.1.11
+Summary: A tiny but compact file writting library... if file writting create's dings, then oppose it with wings :)
 Home-page: https://github.com/macromrit/python_package_amrit
 Author: C.Amrit Subramanian
 Author-email: amritsubramanian.c@gmail.com
@@ -38,7 +38,7 @@ Description: Hey There!!!
             
             ii]read_txt(filename, mode)
                 ->this function helps you read the txt file via the read function.
-                ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+                ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
             
             iii]write_csv(filename, total_columns, total_rows)
                 ->this function help's you to create a csv file and append the elements you wanna, to the file you've provided.
@@ -49,7 +49,7 @@ Description: Hey There!!!
             
             iv]read_csv(filename, mode)
                ->this function helps you read the csv file list by list.. via reader function from csv.
-               ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+               ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
         
             v]write_bin(filename, *values)
               ->this function helps you to create and append or direct append to a pickled binary file.
@@ -58,7 +58,7 @@ Description: Hey There!!!
         
             vi]read_bin(filename, mode)
                ->this function helps you to read a pickled binary file completely.
-               ->you should input p for printing the content or r for using the content for programming purposes in the function after filename.
+               ->you should input p for printing the content or r for using the content for programming purposes in the function after the filename.
             
             after downloading the library you should import it using this command: 'import macromrit' or 'from macromrit import <the function you want>'
         
@@ -115,7 +115,7 @@ Description: Hey There!!!
                     pickle.dump(a, writer)
                     pickle.dump(c, writer)
         
-            when you use this library to write a binary files with 5 elements:
+            when you use this library to write a binary file with 5 elements:
         
                 import macromrit
                 macromrit.write_csv('filename.bin', "hello", "hi", 'bye', 'clown', 'pen')
@@ -137,7 +137,7 @@ Description: Hey There!!!
         
         thanks for supporting :):):)
         
-        author & FOUNDER of amrit library |
+        Author & Founder of macromrit library |
         C.Amrit Subramanian |
         a.k.a |
         Macromrit |
