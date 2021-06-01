@@ -90,7 +90,7 @@ WHY IS THIS LIBRARY USEFUL & HANDY??:
         macromrit.write_csv('filename.csv', 2, 3)
     _______________________________________________________________________
 
-    normal lines of code to write a csv file with 5 elements:
+    normal lines of code to write a binary file with 5 elements:
 
         import pickle
         
@@ -107,7 +107,7 @@ WHY IS THIS LIBRARY USEFUL & HANDY??:
             pickle.dump(a, writer)
             pickle.dump(c, writer)
 
-    when you use this library to write a csv file with 2 columns and 3 rows:
+    when you use this library to write a binary files with 5 elements:
 
         import macromrit
         macromrit.write_csv('filename.bin', "hello", "hi", 'bye', 'clown', 'pen')

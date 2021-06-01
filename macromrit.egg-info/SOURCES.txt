@@ -1,0 +1,7 @@
+README.txt
+setup.py
+macromrit/__init__.py
+macromrit.egg-info/PKG-INFO
+macromrit.egg-info/SOURCES.txt
+macromrit.egg-info/dependency_links.txt
+macromrit.egg-info/top_level.txt
